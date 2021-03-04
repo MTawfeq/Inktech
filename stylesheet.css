@@ -1,0 +1,475 @@
+* {
+padding: 0;
+margin: 0%;
+}
+
+/* -- -------------- --- -- - nav-bar - -- --- -------------- -- */
+
+
+#nav-bar{
+ position: sticky;
+ top: 0;
+ z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782 );
+    padding: 0 5px !important;
+}
+
+.navbar-brand img{
+height: 50px;
+padding-left: 10px;
+
+}
+
+.navbar-nav li{
+    padding: 0px 10px;
+}
+
+.navbar-nav li a {
+    color:  #fff !important;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff ;
+    font-weight: 30px !important;
+    
+}
+
+
+/* -- -------------- --- -- - banner SECTION - -- --- -------------- -- */
+
+#banner{
+    padding-top: 0%;
+    background-image:  linear-gradient(to right, #a517ba, #5f1782 );
+    color: #fff;
+}
+.promo-title{
+    padding-left: 5%;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 2%;
+
+}
+
+.promo-subject{
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.play-btn{
+    width: 50px;
+    margin: 20px;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.promo-img{
+    padding-top: 2%;
+}
+.bottom-img{
+    width: 100%;
+}
+
+
+/* -- -------------- --- -- - service SECTION - -- --- -------------- -- */
+
+.title-2{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-variant-caps: all-petite-caps;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title::before{
+    content: '';
+    background: #5f1782;
+    height: 8px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(52px);
+    border-radius: 30px;
+}
+
+.title::after{
+    content: '';
+    background:#a517ba;
+    height: 4px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(11px);
+    border-radius: 30px;
+    margin-bottom: 35px;
+
+}
+
+#service{
+    padding: 80px 0;
+}
+
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+.services{
+    padding: 20px;
+}
+
+.capitalize{
+    font-variant-caps: all-petite-caps;
+}
+
+#services .btn-primary {
+    margin: 10px 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow:none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 15px;
+    background-image:  linear-gradient(to left, #a517ba, #5f1782 );
+
+}
+
+
+/* -- -------------- --- -- - ABOUT US SECTION - -- --- -------------- -- */
+
+#about-us{
+    background: linear-gradient(to right, #f5eaf7, #fdd7e6 );
+    margin-top: 50px;
+    padding-top: -10px;
+    padding-bottom: 50px;
+
+}
+
+.p-about-us{
+    margin-top: 30px;
+}
+
+.il-about-us{
+    padding: 5px 0;
+    text-align: left;
+
+}
+/*
+.container-relative{
+
+    position: relative;
+    width: 50%;
+}
+
+.container-overlay{
+
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container-overlay:hover{
+
+opacity: 70%;
+
+}
+*/
+.why-choose-us-img{
+    
+
+    opacity: 90%;
+}
+
+.why-choose-us-img:hover{
+   
+    opacity: 100%;
+    /* border: chocolate solid 5px; */
+    border-bottom: 4px outset rgb(230, 12, 48);
+    border-left: 2px outset rgb(230, 12, 48);
+    border-radius: 25px;
+  
+    
+    /* background-color: #fdd7e6; */
+    
+
+}
+
+
+/* -- -------------- --- -- - testimonials SECTION - -- --- -------------- -- */
+
+
+#testimonials{
+    
+    margin-bottom: 50px;
+}
+
+.testimonials{
+    
+    margin: 0 50;
+    border-left: 4px solid #5f1782 ; 
+    /* border-image: linear-gradient(to top, #a517ba, #5f1782 ) ; */
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    margin: 0% 5px;
+
+}
+
+
+
+
+.testimonials-user-info{
+    display: inline-block;
+    
+}
+
+/* -- -------------- --- -- - social-media SECTION - -- --- -------------- -- */
+
+#social-media{
+    background: #fff;
+    margin-top: 50px;
+    padding-top: -10px;
+    padding-bottom: 50px;
+}
+
+
+
+.social-media img{
+    width: 40px;
+    margin: 0% 20px;
+    transition: 0.2s;
+
+}
+.social-media a:hover img{
+    transform: translate(0px , -5px);
+    /* transform: translatey(-10px); */
+    
+}
+
+/* -- -------------- --- -- - footer SECTION - -- --- -------------- -- */
+
+
+
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782 ) ;
+}
+
+.bottombar-brand img{
+    height: 50px;
+padding-left: 10px;
+
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-Text{
+    color: #fff;
+}
+
+
+.footer-box img{
+    /* width: 60px; */
+    height: 30px;
+    transition: 0.5s;
+    background-image: linear-gradient(to left, #a517ba, #5f1782 ) ;
+    border-radius: 50%;
+
+}
+
+.footer-box-hover {
+    color: #fff;
+    text-decoration: none;
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782 ) ; */
+    text-align: left;
+    
+}
+
+.footer-box-hover:hover {
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #a517ba, #5f1782 ) ;
+    border-radius: 50%;
+}
+
+.footer-box-hover:hover img {
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #a517ba, #5f1782 ) ;
+}
+
+
+.footer-box a:hover img{
+    transform: translate(-3px , -8px);
+    text-decoration: none;
+}
+
+
+.footer-subscribe{
+    padding: 20px 0 ;
+}
+#footer .form-control{
+    border:  1.5px solid #fff;
+    box-shadow:
+    inset 0 -2.2em 1.2em #490f66,
+    0 0  0 3px #a517ba,
+    0.1em 0.1em 1em rgba(255, 0, 0, 0.616);
+    max-width: 200px;
+    border-radius: 30px;
+    color: #fff;
+    scrollbar-highlight-color: #fff;
+    background-image:  linear-gradient(to left, #eac1f1, #ebc2ff );
+}
+
+
+#footer .btn-primary{
+   
+    border-radius: 20px;
+    border:  1.5px solid #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 15px;
+    /* background-image:  linear-gradient(to left, #a517ba, #5f1782 ); */
+
+    box-shadow:
+    inset 0 -2.0em 1.2em #490f66,
+    0 0  0 3px #a517ba,
+    0.1em 0.1em 1em rgba(255, 0, 0, 0.616);
+    max-width: 200px;
+   
+    color: #fff;
+    
+
+    background-image:  linear-gradient(to left, #eac1f1, #ebc2ff );
+    
+
+}
+.button:hover{
+    transform: translatex(10px);
+}
+
+.button:active {
+  
+  transform: translateY(4px);
+}
+
+
+
+
+
+
+
+hr
+{
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anas{
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    
+
+}
+
+.copyright{
+    background-color: #4b4949;
+    padding-bottom: 0px;
+    width: 100%;
+
+}
+
+.footer-copyright{
+    color: #252323;
+}
+/*
+-webkit-tap-highlight-color: transparent;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+box-sizing: border-box;
+margin: 0;
+font-family: inherit;
+overflow: visible;
+display: block;
+width: 100%;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+max-width: 200px;
+border-radius: 15px;
+*/
